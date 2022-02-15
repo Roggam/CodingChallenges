@@ -8,6 +8,7 @@ public class CountNegativeSubArraySum {
         for(int j=0; j< array.length; j++){
             int sum=0;
             for(int k=j; k< array.length; k++){
+
                 sum= array[k]+sum;
                 if(sum<0){
                     count++;
