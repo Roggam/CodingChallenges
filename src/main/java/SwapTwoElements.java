@@ -15,6 +15,7 @@ public class SwapTwoElements {
             for(String a: c1){
                 System.out.println(a);
             }
+
             //Swapping 1st(index 0) element with the 3rd(index 2) element
             Collections.swap(c1, 0, 2);
             System.out.println("Array list after swap:");
